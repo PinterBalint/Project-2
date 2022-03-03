@@ -23,7 +23,6 @@ p{
 
   .right-side-image:hover {opacity: 0.7;}
   
-  /* The Modal (background) */
   .modal1, .modal2, .modal3 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -38,7 +37,6 @@ p{
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
   
-  /* Modal Content (Image) */
   .modal-content1, .modal-content2, .modal-content3 {
     margin: auto;
     display: block;
@@ -46,7 +44,6 @@ p{
     max-width: 700px;
   }
   
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption1, #caption2, #caption3 {
     margin: auto;
     display: block;
@@ -58,7 +55,6 @@ p{
     height: 150px;
   }
   
-  /* Add Animation - Zoom in the Modal */
   .modal-content1, #caption1, .modal-content2, #caption2, .modal-content3, #caption3 {
     animation-name: zoom;
     animation-duration: 0.6s;
@@ -69,7 +65,6 @@ p{
     to {transform:scale(1)}
   }
   
-  /* The Close Button */
   .close1, .close2, .close3 {
     position: fixed;
     top: 15px;
