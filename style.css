@@ -1,3 +1,9 @@
+body{
+  background-color: #59656F;
+}
+.container{
+  background-color: #DBD2E0;
+}
 .carousel-image{
     height: 500px;
 }
@@ -8,7 +14,7 @@ p{
     text-align: justify;
 }
 .right-side-image{
-    width: 350px;
+    width: 320px;
     height: 300px;
     border-radius: 5px;
     cursor: pointer;
